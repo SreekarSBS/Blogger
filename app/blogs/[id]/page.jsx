@@ -37,7 +37,7 @@ const page = () => {
         </div>
         <div className='text-center my-24'>
             <h1 className='text-2xl sm:text-5xl font-semibold max-w-[700px] mx-auto'>{data.title}</h1>
-            <Image alt='h' className='mx-auto mt-6 border border-white rounded-full ' src={data.authorImg} width={60} height={60} alt=''/>
+            <Image alt='h' className='mx-auto mt-6 border border-white rounded-full ' src={data.authorImg} width={60} height={60} />
             <p className='mt-1 pb-2 text-lg max-w-[740px] mx-auto'>{data.author}</p>
         </div>
     </div>
